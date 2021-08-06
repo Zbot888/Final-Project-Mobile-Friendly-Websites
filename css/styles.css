@@ -93,3 +93,8 @@ li{
     justify-content: flex-end;
     
 }
+.my-6 {
+    font-family:'Share Tech Mono', monospace;
+    color:red
+
+}
