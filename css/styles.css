@@ -1,0 +1,95 @@
+/* HERO */
+.hero{
+    height: 400px;
+    width: 202%;
+    background-color: lavender;
+    background-image:   url(
+    '../Images/banner.png');
+    position: absolute;
+    top:-20px;
+    background-repeat: repeat-x;
+    background-position: 
+        0 20%,
+        0 100%,
+        0 50%,
+        0 100%,
+        0 0;
+    animation: 50s butt infinite linear;
+    }
+
+@keyframes butt {
+    100% {
+        background-position: 
+            -5000px 20%,
+            -800px 95%,
+            500px 50%,
+            1000px 100%,
+            400px 0;
+        }
+    }
+
+
+
+/* NAV */
+#planetz{
+    height:50px;
+    width:70px;
+    margin-top: -15px;
+}
+.navbar{
+    background-color: yellow;
+    border-color: transparent;
+    width: 202%;
+  height: 64px;
+}
+
+li{
+    font-size: x-large;
+    color: blue;
+  font-family:'Share Tech Mono', monospace;
+}
+
+
+  
+  header .container {
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    font-family: 'Nosifer', cursive;
+    color: black;
+}
+
+
+  .row{
+    background-color: black;
+    font-family:'Share Tech Mono', monospace;
+}
+
+.my-5 {
+    font-family:'Share Tech Mono', monospace;
+    color:red
+
+}
+
+/* FOOTER */
+.footer{
+    background-color: rebeccapurple;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display:flex;
+    align-content: flex-end;
+    font-family: 'Nosifer', cursive;
+}
+.social{
+    color:white;
+    list-style: none;
+    padding:15px;
+
+
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+    
+}
